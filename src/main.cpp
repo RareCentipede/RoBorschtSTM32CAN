@@ -26,7 +26,7 @@ void setup() {
     Serial.begin(115200);
     Serial.flush();
     Can.begin();
-    Can.setBaudRate(50000);  //1000KBPS
+    Can.setBaudRate(50000);  //50KBPS
 
   // Send start message to move the nodes from pre-opertation to operational state
     uint32_t id = 0x01;
